@@ -14,7 +14,7 @@ class Home extends Component {
   render() {
     return (
       <div className="app-container">
-        <div className="home-container"></div>
+        <div className="home-container">
           <Message isLoggedIn={isLoggedIn}/>
           {isLoggedIn ? (
             <Logout logout ={this.onClickButton}/>
