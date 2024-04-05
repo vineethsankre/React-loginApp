@@ -12,6 +12,7 @@ class Home extends Component {
   }
 
   render() {
+    const {isLoggedIn} = this.state
     return (
       <div className="app-container">
         <div className="home-container">
