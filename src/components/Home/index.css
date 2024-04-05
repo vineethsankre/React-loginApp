@@ -1,0 +1,17 @@
+.app-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+    width: 350px;
+    height: 400px;
+
+}
